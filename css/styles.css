@@ -1,122 +1,186 @@
-/*font-family: "Roboto",sans-serif;
-font-family: "Raleway",sans-serif;*/
-.body{
-font-family: "Raleway", sans-serif;
-background-color:#fff;
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #fff;
 }
-ul, ol{
-list-style-type:none ;   
-}
-a {
-text-decoration: none;
-}
-/*header*/
-.page-header {
-background-color:#ffffff;
-text-align:center;
-width: 1440px;
-height: 72px;
 
+ul,
+ol {
+    list-style-type: none;
 }
-.header-logo {
-font-weight: 700;
+
+a {
+    text-decoration: none;
+}
+/* header*/
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
-}
-.part-logo {
     color: #4d5ae5;
 }
-.nov-item {
-color:#2e2f42;
-display:flex;
-align-items:flex-start;
-justify-items:flex-start;
-flex-direction: row;
-gap: 40px;
-width: 261px;
-height: 24px;
+
+.header-logo .logo-part {
+    color: #2e2f42;
 }
-.link-mail {
-color:#434455;
-}
-.link-phone {
-color:#2e2f42;
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
+.contacts {
+    font-style: normal;
+}
+
+.contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
+}
 /*end header*/
 
 /*solution*/
 .solution {
 background-color:#2e2f42;
-width: 1440px;
-height: 600px;
-
 }
-.logo-h1 {
-color:white;
-font-size: 56px;
+.logo-solution {
 font-weight: 700;
-letter-spacing:0.02em;
-line-height: 1.07143;
-text-align:center;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
 }
 
-.button {
-background-color:#4d5ae5 ;
-color:white;
-display: block;
-margin: 0 auto;
-border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
+.button-solution {
+background: #4d5ae5;
 }
+.button-text {
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
 /*endsolution*/
 
 /*advantages*/
-.advantages{
-text-align: center;
+.logo-advantages {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
- .list-advantages{
-text-align:center;
+ .about {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
  }
  /*endadvantages*/
 
  /*our team*/
-.team {
-color:#2e2f42;
+.logo-team {
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 .our-team {
-background-color:#f4f4fd;
-text-align: center;
+background-color: #f4f4fd;
 }
 .workers {
-background-color:white ;
+background-color:#fff ;
+}
+.names-ourteam {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.text-ourteam {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
 /* endour team*/
 
 /* ourportfolio*/
-.our-portfolio{
-background-color:white;
-text-align: center;
+.logo-portfolio {
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
-.logo-p {
-color:#2e2f42;
+.name-portfolio{
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
+.text-portfolio{
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 /* endourportfolio*/
 
 /*footer*/
 .footer {
 background-color:#2e2f42 ;
-text-align: left;
 }
 .text-footer {
-color:#f4f4fd
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
 }
-.logo-footer{
-color:#f4f4fd;   
+.footer-logo .logo-part {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;
+}
+
+.footer-logo {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
 }
 /*endfooter*/
