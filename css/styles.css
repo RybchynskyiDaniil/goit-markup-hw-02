@@ -60,21 +60,34 @@ background-color:#2e2f42;
 .logo-solution {
 font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
 }
 
-.button-solution {
-background: #4d5ae5;
+.button-solution:hover,
+.button-solution:focus{
+background-color: #404BBF;
+
+}
+.button-solution{
+background-color: #4D5AE5;
+font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .button-text {
 font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    background-color: #4d5ae5;
 }
 
 /*endsolution*/
@@ -100,16 +113,17 @@ font-weight: 500;
 .logo-team {
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 .our-team {
 background-color: #f4f4fd;
 }
 .workers {
-background-color:#fff ;
+background-color:#FFFFFF ;
 }
 .names-ourteam {
 font-weight: 500;
@@ -133,10 +147,11 @@ font-weight: 400;
 .logo-portfolio {
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 .name-portfolio{
 font-weight: 500;
@@ -178,9 +193,10 @@ background-color:#2e2f42 ;
 .footer-logo {
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        font-family: "Raleway", sans-serif;
 }
 /*endfooter*/
